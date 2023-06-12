@@ -54,6 +54,10 @@
     background-image: url('../img/like-o.svg');
 }
 
+.player__icon_like_active {
+    filter: drop-shadow(0 0 2px red);
+}
+
 .player__progress-wrap {
     display: flex;
     align-items: center;
@@ -147,7 +151,7 @@
     background-image: url('../img/volume-on.svg');
 }
 
-.player__icon_mute-of {
+.player__icon_mute-off {
     background-image: url('../img/volume-off.svg');
 }
 
